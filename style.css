@@ -1,0 +1,42 @@
+body {
+     background-image: linear-gradient(180deg, #00baff 0%, #006bfd 100%);
+}
+
+.titulo {
+	 color: #fff;
+     font-size: 55px;
+     text-transform: uppercase;
+     letter-spacing: 7px;
+}
+
+.galeria images {
+     box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+     border-radius: 15px;
+}
+
+#text {
+     color: #fff;
+	 text-align: center;
+}
+
+#link {
+     color: #fff;
+	 text-align: center;
+}
+
+
+.galeria .col {
+     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+     .materialbox-caption {
+          width: 90%;
+     }
+}
+
+@media screen and (max-width: 992px){
+     .materialbox-caption {
+          width: 70%;
+     }
+}
